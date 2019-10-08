@@ -1,4 +1,4 @@
-lines.linewidth   : 2.0    ## line width in points
+lines.linewidth   : 2.5    ## line width in points
 lines.markeredgewidth  : 0.0     ## the line width around the marker symbol
 lines.markersize  : 9            ## markersize, in points
 
@@ -12,7 +12,7 @@ text.color          : white
 
 axes.facecolor      : black   ## axes background color
 axes.edgecolor      : white   ## axes edge color
-axes.linewidth      : 0.0     ## edge linewidth
+axes.linewidth      : 1.2     ## edge linewidth
 axes.titlesize      : 20.0   ## fontsize of the axes title
 axes.titleweight    : bold  ## font weight of title
 axes.titlepad       : 9.0     ## pad between axes and title in points
