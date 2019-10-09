@@ -6,13 +6,13 @@ patch.linewidth        : 0.3        ## edge width in points.
 
 font.weight         : bold
 font.size           : 12.0
-font.sans-serif     : Cantarell, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+font.sans-serif     : DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
 
 text.color          : white
 
 axes.facecolor      : black   ## axes background color
 axes.edgecolor      : white   ## axes edge color
-axes.linewidth      : 1.2     ## edge linewidth
+axes.linewidth      : 1.5     ## edge linewidth
 axes.titlesize      : 20.0   ## fontsize of the axes title
 axes.titleweight    : bold  ## font weight of title
 axes.titlepad       : 9.0     ## pad between axes and title in points
@@ -33,19 +33,19 @@ axes.prop_cycle    : cycler('color', ['PaleTurquoise', 'Khaki', 'MediumAquamarin
                       ## as opposed to the rest of this file.
 
 
-xtick.major.size     : 4.0      ## major tick size in points
-xtick.minor.size     : 2.0      ## minor tick size in points
-xtick.major.width    : 1.2    ## major tick width in points
-xtick.minor.width    : 0.9    ## minor tick width in points
+xtick.major.size     : 5.0      ## major tick size in points
+xtick.minor.size     : 2.5      ## minor tick size in points
+xtick.major.width    : 1.5    ## major tick width in points
+xtick.minor.width    : 1.0    ## minor tick width in points
 xtick.major.pad      : 5.0    ## distance to major tick label in points
 xtick.minor.pad      : 4.0    ## distance to the minor tick label in points
 xtick.color          : white  ## color of the tick labels
 xtick.labelsize      : 12.0     ## fontsize of the tick labels
 
-ytick.major.size     : 4.0    ## major tick size in points
-ytick.minor.size     : 2.0      ## minor tick size in points
-ytick.major.width    : 1.2    ## major tick width in points
-ytick.minor.width    : 0.9    ## minor tick width in points
+ytick.major.size     : 5.0    ## major tick size in points
+ytick.minor.size     : 2.5      ## minor tick size in points
+ytick.major.width    : 1.5    ## major tick width in points
+ytick.minor.width    : 1.0    ## minor tick width in points
 ytick.major.pad      : 5.0    ## distance to major tick label in points
 ytick.minor.pad      : 4.0    ## distance to the minor tick label in points
 ytick.color          : white  ## color of the tick labels
@@ -70,3 +70,6 @@ savefig.edgecolor   : black    ## figure edgecolor when saving
 savefig.format      : svg      ## png, ps, pdf, svg
 savefig.transparent : True    ## setting that controls whether figures are saved with a
                                 ## transparent background by default
+svg.fonttype :   none         ## How to handle SVG fonts:
+   ##     none: Assume fonts are installed on the machine where the SVG will be viewed.
+   ##     path: Embed characters as paths -- supported by most SVG renderers
