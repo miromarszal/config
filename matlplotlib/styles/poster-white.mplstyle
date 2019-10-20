@@ -28,7 +28,7 @@ axes.spines.bottom : True
 axes.spines.top    : False
 axes.spines.right  : False
 
-axes.prop_cycle    : cycler('color', ['LightSeaGreen', 'Goldenrod', 'SteelBlue', 'Crimson'])
+axes.prop_cycle    : cycler('color', ['MediumSeaGreen', 'Goldenrod', 'SteelBlue', 'Crimson'])
                       ## color cycle for plot lines  as list of string
                       ## colorspecs: single letter, long name, or web-style hex
 					  ## Note the use of string escapes here ('1f77b4', instead of 1f77b4)
