@@ -4,10 +4,13 @@ lines.markersize  : 9            ## markersize, in points
 
 patch.linewidth        : 0.3        ## edge width in points.
 
+font.family         : serif
 font.weight         : bold
 font.size           : 12.0
 
 text.color          : DarkSlateGray
+
+mathtext.fontset    : dejavuserif
 
 axes.facecolor      : white   ## axes background color
 axes.edgecolor      : DarkSlateGray   ## axes edge color
